@@ -4,15 +4,18 @@ import React, { useState } from "react";
 const books = {
   JS: [
     { name: "Eloquent JavaScript", rating: "4.5/5" },
-    { name: "JavaScript- The Good Parts", rating: "4.2/5" }
+    { name: "JavaScript- The Good Parts", rating: "4.2/5" },
+    { name: "A Smarter Way to Learn JavaScript", rating: "4.6/5" }
   ],
   Fiction: [
     { name: "Shiva Trilogy", rating: "5/5" },
-    { name: "Harry Potter and the Sorcerer's Stone", rating: "4.5/5" }
+    { name: "Harry Potter and the Sorcerer's Stone", rating: "4.5/5" },
+    { name: "The God of Small Things", rating: "4.5/5" }
   ],
   SH: [
     { name: "Think Like a Monk", rating: "4.6/5" },
-    { name: "The 5AM Club", rating: "4.5/5" }
+    { name: "The 5AM Club", rating: "4.5/5" },
+    { name: "The Secret", rating: "4.5/5" }
   ]
 };
 
